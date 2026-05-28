@@ -1,2 +1,18 @@
-# monte-carlo-stock-simulator
-Monte Carlo Stock Price Simulator using Geometric Brownian Motion in Python. Built with numpy, matplotlib, and yfinance.
+# Quant Projects
+
+A collection of quantitative finance projects built in Python.
+
+## Projects
+
+### 1. Monte Carlo Stock Price Simulator
+Simulates 1000 possible future price paths for AAPL using Geometric Brownian Motion. Calculates expected price, best/worst case, and probability of profit.
+**Tools:** numpy, matplotlib, yfinance
+
+### 2. Black-Scholes Options Pricer
+Prices NVDA call and put options using the Black-Scholes formula with real historical volatility. Demonstrates Put-Call Parity.
+**Tools:** numpy, scipy, yfinance
+
+## Coming Soon
+- Greeks Calculator (Delta, Gamma, Theta, Vega)
+- Backtesting Engine
+- Pairs Trading Strategy
